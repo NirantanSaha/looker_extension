@@ -2,8 +2,8 @@ project_name: "looker_conversational_extension"
 
 application: conversational_chat {
   label: "Conversational Chat"
-  # Dev mode (live reload from Vite):
-  url: "http://localhost:8080/src/index.tsx"
+  # Dev mode (vite build --watch + vite preview):
+  url: "http://localhost:8080/bundle.js"
   # Prod mode (uncomment after `npm run build` and replace url above):
   # file: "bundle.js"
 
