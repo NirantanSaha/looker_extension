@@ -2,8 +2,8 @@ project_name: "looker_conversational_extension"
 
 application: conversational_chat {
   label: "Conversational Chat"
-  # Dev mode (vite build --watch + vite preview):
-  url: "https://localhost:8080/bundle.js"
+  # Dev mode (live reload from Vite):
+  url: "http://localhost:8080/src/index.tsx"
   # Prod mode (uncomment after `npm run build` and replace url above):
   # file: "bundle.js"
 
@@ -24,8 +24,7 @@ application: conversational_chat {
     ]
     external_api_urls: [
       "https://geminidataanalytics.googleapis.com",
-      "https://oauth2.googleapis.com",
-      "https://localhost:8080"
+      "https://oauth2.googleapis.com"
     ]
     oauth2_urls: [
       "https://accounts.google.com/o/oauth2/v2/auth"
