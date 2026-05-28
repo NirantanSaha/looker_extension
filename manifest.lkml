@@ -31,7 +31,8 @@ application: conversational_chat {
     ]
     scoped_user_attributes: [
       "google_cloud_project_id",
-      "google_oauth_token"
+      "google_oauth_token",
+      "google_oauth_client_id"
     ]
   }
 }
