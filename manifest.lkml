@@ -29,7 +29,9 @@ application: conversational_chat {
     ]
     external_api_urls: [
       "https://geminidataanalytics.googleapis.com",
-      "https://oauth2.googleapis.com"
+      "https://oauth2.googleapis.com",
+      "http://localhost:8080",
+      "https://cdn.jsdelivr.net"
     ]
     oauth2_urls: [
       "https://accounts.google.com/o/oauth2/v2/auth"
