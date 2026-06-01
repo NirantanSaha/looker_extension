@@ -3,9 +3,9 @@ project_name: "looker_conversational_extension"
 application: conversational_chat {
   label: "Conversational Chat"
   # Dev mode (live reload from Vite):
-  url: "http://localhost:8080/bundle.js"
+  #url: "http://localhost:8080/bundle.js"
   # Prod mode (uncomment after `npm run build` and replace url above):
-  # file: "bundle.js"
+  file: "bundle.js"
 
   entitlements: {
     local_storage: yes
@@ -20,12 +20,7 @@ application: conversational_chat {
       "dashboard",
       "all_lookml_models",
       "lookml_model_explore",
-      "search_dashboards",
-      "create_dashboard_element",
-      "update_dashboard_element",
-      "delete_dashboard_element",
-      "dashboard_element",
-      "run_inline_query"
+      "search_dashboards"
     ]
     external_api_urls: [
       "https://geminidataanalytics.googleapis.com",
