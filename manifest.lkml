@@ -1,5 +1,3 @@
-project_name: "looker_conversational_extension"
-
 application: conversational_chat {
   label: "Conversational Chat"
   # Dev mode (live reload from Vite):
@@ -25,7 +23,9 @@ application: conversational_chat {
       "update_dashboard_element",
       "delete_dashboard_element",
       "dashboard_element",
-      "run_inline_query"
+      "run_inline_query",
+      "run_query",
+      "query"
     ]
     external_api_urls: [
       "https://geminidataanalytics.googleapis.com",
