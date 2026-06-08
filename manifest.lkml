@@ -20,11 +20,20 @@ application: conversational_chat {
       "dashboard",
       "all_lookml_models",
       "lookml_model_explore",
-      "search_dashboards"
+      "search_dashboards",
+      "create_dashboard_element",
+      "update_dashboard_element",
+      "delete_dashboard_element",
+      "dashboard_element",
+      "run_inline_query",
+      "run_query",
+      "query"
     ]
     external_api_urls: [
       "https://geminidataanalytics.googleapis.com",
-      "https://oauth2.googleapis.com"
+      "https://oauth2.googleapis.com",
+      "http://localhost:8080",
+      "https://cdn.jsdelivr.net"
     ]
     oauth2_urls: [
       "https://accounts.google.com/o/oauth2/v2/auth"
