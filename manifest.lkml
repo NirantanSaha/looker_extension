@@ -1,3 +1,12 @@
+# Minimal LookML required to REGISTER the extension with Looker.
+
+# No data models / explores / views are defined here — this file only
+# tells Looker "load this React bundle as an extension".
+#
+# Place this manifest at the root of a LookML project in your Looker instance.
+# For dev, point `url` at your Vite dev server. For prod, set `file` to the
+# built bundle.js committed into the same LookML project.
+
 project_name: "looker_conversational_extension"
 
 application: conversational_chat {
@@ -31,6 +40,7 @@ application: conversational_chat {
     ]
     external_api_urls: [
       "https://geminidataanalytics.googleapis.com",
+      "https://bigquery.googleapis.com",
       "https://oauth2.googleapis.com",
       "http://localhost:8080",
       "https://cdn.jsdelivr.net"
